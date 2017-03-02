@@ -7,3 +7,12 @@ Based on the following tutorial: https://stormpath.com/blog/tutorial-deploy-asp-
 mkdir AspNetCoreHelloWorld
 cd AspNetCoreHelloWorld
 dotnet new -t web
+```
+
+Make sure everything is working!
+```BASH
+dotnet restore
+dotnet run
+```
+
+## Step 2 - 
