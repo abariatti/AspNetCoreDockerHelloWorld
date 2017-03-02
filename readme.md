@@ -3,6 +3,7 @@
 Based on the following tutorial: https://stormpath.com/blog/tutorial-deploy-asp-net-core-on-linux-with-docker
 
 ## Step 1 - Create dotnet core project
+
 ```BASH
 mkdir AspNetCoreHelloWorld
 cd AspNetCoreHelloWorld
@@ -48,5 +49,13 @@ docker build -t mydemos:aspnetcorehelloworld .
 
 Do not forget the dot at the end!
 
+## Step 4 - Run the docker image 
 
+```BASH
+docker run -d -p 8080:5000 -t mydemos:aspnetcorehelloworld
+```
+
+The -d flag tells Docker to run the container in detached mode (in the background). The -p flag will map port 8080 on the host machine to port 5000 inside the container. Finally, the -t flag is used to specify which image to run.
+
+That’s it! You should see your container running when you check docker ps. Open up a web browser and navigate to http://localhost:8080. You should see the welcome page:
 
