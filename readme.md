@@ -42,12 +42,17 @@ ENTRYPOINT ["dotnet", "run"]
 
 Here’s what each of these instructions does:
 
-FROM tells Docker that you want to base your image on the existing image called microsoft/dotnet:latest. This image already contains all the dependencies for running .NET Core on Linux, so you don’t have to worry about setting those up.
-COPY and WORKDIR copy the current directory’s contents into a new directory inside the container called /app, and set that to the the working directory for the subsequent instructions.
-RUN executes dotnet restore and dotnet build, which restores the packages needed to run the ASP.NET Core application and compiles the project.
-EXPOSE tells Docker to expose port 5000 (the default port for ASP.NET) on the container.
-ENV sets the environment variable ASPNETCORE_URLS in the container. This will ensure that ASP.NET Core binds to the correct port and address.
-ENTRYPOINT specifies the command to execute when the container starts up. In this case, it’s dotnet run.
+**FROM** tells Docker that you want to base your image on the existing image called microsoft/dotnet:latest. This image already contains all the dependencies for running .NET Core on Linux, so you don’t have to worry about setting those up.
+
+**COPY** and **WORKDIR** copy the current directory’s contents into a new directory inside the container called /app, and set that to the the working directory for the subsequent instructions.
+
+**RUN** executes dotnet restore and dotnet build, which restores the packages needed to run the ASP.NET Core application and compiles the project.
+
+**EXPOSE** tells Docker to expose port 5000 (the default port for ASP.NET) on the container.
+
+**ENV** sets the environment variable ASPNETCORE_URLS in the container. This will ensure that ASP.NET Core binds to the correct port and address.
+
+**ENTRYPOINT** specifies the command to execute when the container starts up. In this case, it’s dotnet run.
 
 ## Step 3 - Creating the Docker image 
 
