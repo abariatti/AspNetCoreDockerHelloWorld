@@ -6,7 +6,7 @@ Based on the following tutorial: https://stormpath.com/blog/tutorial-deploy-asp-
 ```BASH
 mkdir AspNetCoreHelloWorld
 cd AspNetCoreHelloWorld
-dotnet new -t web
+dotnet new web
 ```
 
 Make sure everything is working!
@@ -39,3 +39,14 @@ RUN executes dotnet restore and dotnet build, which restores the packages needed
 EXPOSE tells Docker to expose port 5000 (the default port for ASP.NET) on the container.
 ENV sets the environment variable ASPNETCORE_URLS in the container. This will ensure that ASP.NET Core binds to the correct port and address.
 ENTRYPOINT specifies the command to execute when the container starts up. In this case, it’s dotnet run.
+
+## Step 3 - Creating the Docker image 
+
+```BASH
+docker build -t mydemos:aspnetcorehelloworld .
+```
+
+Do not forget the dot at the end!
+
+
+
