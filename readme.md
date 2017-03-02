@@ -2,6 +2,14 @@
 
 Based on the following tutorial: https://stormpath.com/blog/tutorial-deploy-asp-net-core-on-linux-with-docker
 
+## Prerequisite
+
+Microsoft Core SDK
+https://go.microsoft.com/fwlink/?LinkID=835014
+
+Docker
+https://www.docker.com/
+
 ## Step 1 - Create dotnet core project
 
 ```BASH
