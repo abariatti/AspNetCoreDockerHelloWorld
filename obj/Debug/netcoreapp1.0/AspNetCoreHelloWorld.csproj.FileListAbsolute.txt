@@ -1,8 +1,0 @@
-D:\git\AspNetCoreHelloWorld\bin\Debug\netcoreapp1.0\AspNetCoreHelloWorld.deps.json
-D:\git\AspNetCoreHelloWorld\bin\Debug\netcoreapp1.0\AspNetCoreHelloWorld.runtimeconfig.json
-D:\git\AspNetCoreHelloWorld\bin\Debug\netcoreapp1.0\AspNetCoreHelloWorld.runtimeconfig.dev.json
-D:\git\AspNetCoreHelloWorld\bin\Debug\netcoreapp1.0\AspNetCoreHelloWorld.dll
-D:\git\AspNetCoreHelloWorld\bin\Debug\netcoreapp1.0\AspNetCoreHelloWorld.pdb
-D:\git\AspNetCoreHelloWorld\obj\Debug\netcoreapp1.0\AspNetCoreHelloWorld.AssemblyInfo.cs
-D:\git\AspNetCoreHelloWorld\obj\Debug\netcoreapp1.0\AspNetCoreHelloWorld.dll
-D:\git\AspNetCoreHelloWorld\obj\Debug\netcoreapp1.0\AspNetCoreHelloWorld.pdb

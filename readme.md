@@ -1,4 +1,4 @@
-#ASP.Net Core HelloWorld with docker support
+# ASP.Net Core HelloWorld with docker support
 
 Based on the following tutorial: https://stormpath.com/blog/tutorial-deploy-asp-net-core-on-linux-with-docker
 
